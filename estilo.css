@@ -1,9 +1,13 @@
-
-header {
-  
+body {
+font-family: 'Source Serif 4', sans-serif;
+border: 2x;
 }
 
-nav {
+p {
+    
+}
+
+nav{
     text-align: right;
+    padding: 30px 50px 0 0; 
 }
-

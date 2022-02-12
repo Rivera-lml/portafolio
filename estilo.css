@@ -1,19 +1,89 @@
-body {
-font-family: 'Source Serif 4', sans-serif;
-border: 2x;
-text-align: center;
+/* General css */
+
+
+h1{
+    background-color: beige;
 }
 
-p {
-    font-weight:600;
+
+body {
+font-family: 'Source Serif 4', sans-serif;
+text-align: center;
+color: black;
 }
+
+body p{
+    font-size: large;
+    font-weight: 600;
+}
+
+
+/* home */
+
+
+
+.about h1{
+
+    text-align: center;
+}
+
+.r {
+    text-align: center;
+
+}
+
+.respaldo {
+    background: blanchedalmond;
+}
+.recomendaciones {
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+
+.recomendaciones .recomendacion{
+    background:blanchedalmond;
+    display: flex;
+    width: 400px;
+    height: auto;
+}
+
+.recomendaciones .nombre{
+    padding: 0px 10px 0px 0px;
+}
+
+.recomendaciones .recomendacion img{
+    
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    padding: 0px 10px 0px 0px;
+}
+
+.prof{
+    color: none;
+}
+
+.prof:hover{
+    color:blue
+}
+
+.proyectos {
+    padding: 0 0 35px 0;  
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    background-color:blanchedalmond;
+}
+
 
 nav{
     color: #000000;
     text-align: right;
-    padding: 30px 50px 0 0; 
+    /* padding: 5px 10px 5px 30px;  */
     font-size: large;
     font-weight: bold;
+    background-color: beige;
 
 }
 
@@ -32,3 +102,73 @@ nav > a:hover{
 a {
     font-weight: 700;
 }
+
+
+
+/* about me */
+.about_me{
+    background: beige;
+}
+
+.myself {
+    padding: 0 0 35px 0;  
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    background-color:azure;
+}
+
+/* habilidades */
+
+.home {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   background: none;
+}
+.home:hover{
+    background: aqua;
+}
+
+
+.progra {
+  padding: 0 0 35px 0;
+}
+
+.mate {
+    padding: 0 0 35px 0;  
+}
+
+.empre {
+    padding: 0 0 35px 0;  
+}
+
+.mkt {
+    padding: 0 0 35px 0;  
+}
+
+.audiovisual {
+    padding: 0 0 35px 0;  
+}
+
+.congre {
+    padding: 0 0 35px 0;  
+}
+
+.estudios {
+    padding: 35px 0 35px 0;  
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+}
+.estudios_b {
+    padding: 20px 0 35px 0;  
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    background-color:aliceblue
+}
+
+
+ 

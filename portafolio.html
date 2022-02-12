@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200;300;400&family=Source+Serif+4:wght@200&display=swap" rel="stylesheet">
@@ -11,18 +12,22 @@
     <title>Rodrigo Rivera</title>
 </head>
 <body>
-    <h1>Rodrigo Alejandro Rivera López</h1>
+    <!-- <div class="my_name">
+        <h1>Rodrigo Alejandro Rivera López</h1>
+    </div> -->
     <header>
-        <nav>
-            
+        <h1>Rodrigo Alejandro Rivera López</h1>
+        <nav>   
             <a href="about.html"><b>Acerca de mí</b></a>
             <a href="habilidades.html"><b>Habilidades</b></a>
             <a href="contacto.html"><b>Contacto</b></a>
 
         </nav>
     </header>
-    <img src="rodri.jpg" alt="" width="245" height="306">
 
+    <div class="rimage">
+        <img src="rodri.jpg" alt="" width="245" height="306">
+    </div>
     <p>Mira algunos de mis proyectos en <a href="https://github.com/Rivera-lml" target="blank">GitHub</a></p>
 
     <section>
@@ -33,11 +38,13 @@
             <img src="cesar.png" alt="" width="600" height="253">
             <p>Proyecto grupal de un programa creado en Python que con ayuda de "clases" que encripta y desencripta cualquier mensaje que se le proporcione. Los mensajes los encripta por medio de la clave de César.</p>
             <p>Puedes encontrar el código del proyecto<a href="https://github.com/Rivera-lml/Encriptaci-n" target="blank"> aquí.</a></p>
-            
-            <h3>Ensayo económico de la película <i>Margin Call</i></h3>
+
             <p>
-                
-        <embed src="ensayo.pdf" type="" width="250" height="260">
+        </div>
+
+        <div class="estudios_b">
+        <h3>Ensayo económico de la película <i>Margin Call</i></h3>
+         <embed src="ensayo.pdf" type="" width="250" height="260">
             </p>
         </div>
 
@@ -50,22 +57,32 @@
     </section>
 
 
-    <section>
-        <div class="recomendaciones">
+    <section class="respaldo    ">
             <h2>Profesionales que respaldan mi trabajo</h2>
-            <h3>Alejandro Alas</h3>
+        
+        <div class="recomendaciones">
+            <div class="recomendacion">
+            <div class="nombre">
+                <div class="prof"><h3>Alejandro Alas</h3></div>
+            </div>
             <img src="alas.jpg" alt="Profesor Alas" width="100" height="100">
             <p><i>El proyecto de encriptación de archivo del que formó parte Rodrigo cumple con todos los requerimientos de calidad estipulados, lo que lo hace un proyecto que vale la pena usar por su calidad y sencillez.</i></p>
-
-            <h3>Mauricio Yanes</h3>
-            <img src="yanes.jpg" alt="Profesor Yanes" width="100" height="100"> 
-            <p><i>La manera es que (Rodrigo) redacta textos es muy precisa y adecuada en los trabajos de escritura.</i></p>
-
-
         </div>
-
-
+        <div class="recomendacion">
+            <div class="nombre">
+                <div class="prof"><h3>Mauricio Yanes</h3></div>
+            </div>  
+            <img src="yanes.jpg" alt="Profesor Yanes" width="100" height="100"> 
+            <p><i>La manera en que (Rodrigo) redacta textos es muy precisa y adecuada en los trabajos de escritura.</i></p>
+        </div>
+        </div>
     </section>
-    <!--meterle un formulario que me envía info a bd? probarlo desde otra pc incluso-->
+
+    <section class="final">
+        <div class="firma">
+            <p>Copyright © Rodrigo Rivera. All Rights Reserved</p>
+        </div>
+    </section>
+  
 </body>
 </html>
